@@ -1,50 +1,57 @@
-body {
-      background-color: #f8f8f8;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-    }
-    h1 {
-      text-align: center;
-      font-size: 24px;
-      margin-bottom: 30px;
-    }
-    .book-library {
-      background-color: #ffffff;
-      padding: 20px;
-      max-width: 800px;
-      margin: auto;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    .book {
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 40px;
-      padding: 10px;
-      border-bottom: 1px solid #ddd;
-    }
-    .book img {
-      width: 200px;
-      height: auto;
-      margin-bottom: 15px;
-	  align-self:center;
-    }
-    .book h2 {
-      text-transform: uppercase;
-      font-size: 16px;
-      margin: 0;
-    }
-    .book .author {
-      color: #777777;
-      font-size: 14px;
-      margin: 0;
-    }
-    .price-block {
-      background-color: #2ecc71;
-      color: #ffffff;
-      padding: 8px;
-      width: 100%;
-      text-align: center;
-      font-weight: bold;
-      border-radius: 4px;
-    }
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<!-- the entire body must be written by student -->
+	
+	 <div style="text-align: center; font-size: 2em; font-weight: bold; padding: 20px;">Book Library</div>
+
+    <div class="book-library">
+        <!-- Book 1: Spy in the Amber -->
+        <div class="book">
+            <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg" alt="Spy in the Amber">
+            <div class="book-info">
+                <p class="book-title">SPY IN THE AMBER</p>
+                <p class="book-author">By Manohar Malgonkar</p>
+            </div>
+            <div class="book-price-block">
+                Rs. 299
+            </div>
+        </div>
+        
+        <!-- Book 2: Sacred Games -->
+        <div class="book">
+            <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg" alt="Sacred Games">
+            <div class="book-info">
+                <p class="book-title">SACRED GAMES</p>
+                <p class="book-author">By Vikram Chandra</p>
+            </div>
+            <div class="book-price-block">
+                Rs. 199
+            </div>
+        </div>
+        
+        <!-- Book 3: Byomkesh Bakshi -->
+        <div class="book">
+            <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg" alt="Byomkesh Bakshi">
+            <div class="book-info">
+                <p class="book-title">BYOMKESH BAKSHI</p>
+                <p class="book-author">By Sharadindu Bandyopadhyay</p>
+            </div>
+            <div class="book-price-block">
+                Rs. 249
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./script.js">
+</script>
+
+</body>
+
+</html>
